@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+ 
+ body{
+    color: rebeccapurple;
+    font-family: 'Source Serif Pro', serif;   
+   }
+     
+   /* containers */
+
+   .container{
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
+
+   .container-center{
+      max-width: 600px;
+      margin: auto;
+   }
+
