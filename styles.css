@@ -4,6 +4,8 @@
    {
       --primary-color: rebeccapurple;
       --dark-gray: rgb(65, 64, 61);
+      --off-white: #e5e7eb;
+
    }
 
  body
@@ -119,4 +121,19 @@ hr
 .hero .hero-heading .heading-inverted
    {
       color: var(--primary-color);
+   }
+
+.section
+   {
+      padding: 2rem;
+   }
+
+.section h1
+   {
+      text-align: center;
+   }
+
+.ow
+   {
+      background-color: var(--off-white);
    }
