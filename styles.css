@@ -5,6 +5,7 @@
       --primary-color:#000;
       --dark-gray: rgb(65, 64, 61);
       --off-white: #e5e7eb;
+      --link-color: #ff381e;
 
    }
 
@@ -66,6 +67,7 @@ hr
    {
       display: inline;
       padding: 0rem 0.5rem;
+
    }
 
    /* navbar */
@@ -73,7 +75,7 @@ hr
 .navigation
    {
       background-color: var(--primary-color);
-      color: #ff381e;
+      color:var(--link-color);
       padding: 1rem;
      border-bottom-left-radius: 1rem;
      height: auto;
@@ -81,8 +83,10 @@ hr
    
 .navigation .link
    {
-      color: #ff381e;
-      margin: 1rem;
+      color: var(--link-color);
+      display: inline;
+      padding: 0.5rem 0.5rem;
+      margin: 1rem auto;
    }
 
 .navigation .nav-pills
@@ -97,11 +101,16 @@ hr
       font-weight: bolder;
       font-size: 1.1rem;
       display: inline;
+     margin-left: 1rem;
    }
 
 .navigation .link-active
    {
       font-weight: bold;
+      padding: 0.5rem 0.5rem;
+      margin: 1rem auto;
+      border: 1px solid var(--link-color);
+
    }
 
    /* header */
