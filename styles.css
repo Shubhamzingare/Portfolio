@@ -2,7 +2,7 @@
  
 :root
    {
-      --primary-color: rebeccapurple;
+      --primary-color:#000;
       --dark-gray: rgb(65, 64, 61);
       --off-white: #e5e7eb;
 
@@ -31,6 +31,7 @@
 
 .link
    {
+      box-sizing: border-box;
       text-decoration: none;
       padding: 0.5rem 1rem;
    }
@@ -72,14 +73,14 @@ hr
 .navigation
    {
       background-color: var(--primary-color);
-      color: white;
+      color: #ff381e;
       padding: 1rem;
      border-bottom-left-radius: 1rem;
    }
    
 .navigation .link
    {
-      color: white;
+      color: #ff381e;
    }
 
 .navigation .nav-pills
@@ -91,6 +92,7 @@ hr
    {
       font-weight: bolder;
       font-size: 1.1rem;
+      display: inline;
    }
 
 .navigation .link-active
@@ -158,4 +160,10 @@ hr
    .footer ul
       {
          padding-inline-start: 0px;
+      }
+
+   .footer .footer-header
+      {
+         font-weight: bold;
+         font-size: large;
       }
