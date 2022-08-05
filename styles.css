@@ -76,16 +76,20 @@ hr
       color: #ff381e;
       padding: 1rem;
      border-bottom-left-radius: 1rem;
+     height: auto;
    }
    
 .navigation .link
    {
       color: #ff381e;
+      margin: 1rem;
    }
 
 .navigation .nav-pills
    {
       text-align: right;
+      margin-block-start: 1rem;
+      margin-block-end: 2rem;
    }
 
 .navigation .nav-brand
@@ -150,6 +154,7 @@ hr
       padding: 2rem 0rem;
       color: white;
       text-align: center;
+      margin-bottom: 0rem;
    }
    
    .footer .link
