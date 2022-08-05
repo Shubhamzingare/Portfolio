@@ -96,13 +96,24 @@ hr
       margin-block-end: 2rem;
    }
 
-.navigation .nav-brand
+.navigation .nav-brand 
    {
+      color: var(--link-color);
       font-weight: bolder;
-      font-size: 1.1rem;
-      display: inline;
-     margin-left: 1rem;
+      font-size: 2rem;
+      padding: 0.5rem 0.5rem;
+      /* margin: 1rem auto; */
+      text-decoration: none;
    }
+
+   .navigation .list-item-brand-inline
+      {
+         display: -webkit-inline-flex ;
+       text-align: left;
+       margin: 1rem 1rem;
+
+      }
+
 
 .navigation .link-active
    {
