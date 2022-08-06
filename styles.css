@@ -129,6 +129,7 @@ hr
 .hero 
    {
       padding: 2rem;
+      margin: 0rem 2rem;
    }
 
 .hero .hero-img
@@ -150,6 +151,10 @@ hr
    {
       color: var(--primary-color);
    }
+
+
+
+         /* Section */
 
 .section
    {
@@ -192,4 +197,58 @@ hr
          font-weight: bold;
          font-size: large;
          word-spacing: 0.35rem;
+      }
+
+      /* My Info */
+   .my-info-article
+      {
+         display: flex;
+         -webkit-box-orient: horizontal;
+         -webkit-box-direction: normal;
+         flex-flow: row wrap;
+         justify-content: space-around;
+         margin: 0 0 2rem;
+        
+      }
+   /* .project-img
+      {
+            vertical-align: le;
+      } */
+      
+   .my-info
+      {
+         position: relative;
+         margin-top: 3rem;
+         margin: 0rem 2rem;
+      }
+   .my-info, .project-img
+      {
+         -webkit-box-flex: 1;
+         -ms-flex: 1 1 20rem;
+         flex: 1 1 20rem;
+         width: 30rem;
+         max-width: calc(100vw - 4rem);
+         max-height: 35rem;
+         overflow: auto;
+         text-align: center;
+      }
+   
+   .my-info p
+      {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         vertical-align: middle;
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+      }
+
+   .my-info h2
+      {
+         position: absolute;
+         top: 35%;
+         left: 50%;
+         vertical-align: middle;
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
       }
