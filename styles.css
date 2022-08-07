@@ -213,31 +213,32 @@ hr
          padding: 3rem;
         
       }
-      
+   /* .project-img
+      {
+         margin-left: calc(100vw - 72rem);
+      }    */
    .my-info
       {
-         position: relative;  
-         padding: 10rem 5rem;   
-        width: 2rem;
-        height: auto;
+        position: relative;  
+        padding-top: 20rem; 
+        height: 10rem;
+        color: var(--off-white);
+        word-spacing: 0.20rem;
+        overflow: auto;
+
       }
    .my-info, .project-img
       {
          -webkit-box-flex: 1;
-         -ms-flex: 1 1 20rem;
-         flex: 1 1 20rem;
-         width: 30rem;
-         max-width: calc(100vw - 4rem);
-         max-height: 36rem;
+         -ms-flex: 1 1 25rem;
+         flex: 1 1 25rem;
          overflow: auto;
+         max-width: calc(100vw - 4rem);
          text-align: center;
       }
    
-   .my-info p
+   .my-info article
       {
-         word-spacing: 0.20rem;
-         color: var(--off-white);
-         overflow: auto;
          position: absolute;
          top: 50%;
          left: 50%;
@@ -245,4 +246,7 @@ hr
          -ms-transform: translate(-50%, -50%);
          transform: translate(-50%, -50%);
       }
-
+  .my-info article b
+      {
+         font-size: 20px;
+      }
