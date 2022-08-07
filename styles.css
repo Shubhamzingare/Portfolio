@@ -77,8 +77,8 @@ hr
       background-color: var(--primary-color);
       color:var(--link-color);
       padding: 1rem;
-     border-bottom-left-radius: 1rem;
-     height: auto;
+      border-bottom-left-radius: 1rem;
+      height: auto;
    }
    
 .navigation .link
@@ -129,6 +129,7 @@ hr
 .hero 
    {
       padding: 2rem;
+      display: block;
       margin: 0rem 2rem;
    }
 
@@ -137,7 +138,7 @@ hr
       max-width: 350px;
       display: block;
       text-align: center;
-      margin: auto;
+      border-style: none;
    }
 
 .hero .hero-heading
@@ -151,8 +152,6 @@ hr
    {
       color: var(--primary-color);
    }
-
-
 
          /* Section */
 
@@ -202,24 +201,25 @@ hr
       /* My Info */
    .my-info-article
       {
-         display: flex;
+         border-top: 1px solid var(--link-color);
+         background-color: var(--primary-color);
+         display:flex;
          -webkit-box-orient: horizontal;
          -webkit-box-direction: normal;
          flex-flow: row wrap;
          justify-content: space-around;
-         margin: 0 0 2rem;
+         margin: 1rem 0rem;
+         height: auto;
+         padding: 3rem;
         
       }
-   /* .project-img
-      {
-            vertical-align: le;
-      } */
       
    .my-info
       {
-         position: relative;
-         margin-top: 3rem;
-         margin: 0rem 2rem;
+         position: relative;  
+         padding: 10rem 5rem;   
+        width: 2rem;
+        height: auto;
       }
    .my-info, .project-img
       {
@@ -228,13 +228,16 @@ hr
          flex: 1 1 20rem;
          width: 30rem;
          max-width: calc(100vw - 4rem);
-         max-height: 35rem;
+         max-height: 36rem;
          overflow: auto;
          text-align: center;
       }
    
    .my-info p
       {
+         word-spacing: 0.20rem;
+         color: var(--off-white);
+         overflow: auto;
          position: absolute;
          top: 50%;
          left: 50%;
@@ -243,12 +246,3 @@ hr
          transform: translate(-50%, -50%);
       }
 
-   .my-info h2
-      {
-         position: absolute;
-         top: 35%;
-         left: 50%;
-         vertical-align: middle;
-         -ms-transform: translate(-50%, -50%);
-         transform: translate(-50%, -50%);
-      }
