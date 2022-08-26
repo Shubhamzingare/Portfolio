@@ -2,10 +2,10 @@
  
 :root
    {
-      --primary-color:#000;
+      --primary-color:#a855f7;
       --dark-gray: rgb(65, 64, 61);
       --off-white: #e5e7eb;
-      --link-color: #ff381e;
+      --link-color: black;
 
    }
 
@@ -137,8 +137,8 @@ hr
    {
       max-width: 350px;
       display: block;
-      text-align: center;
-      border-style: none;
+      margin: 0 auto;
+     
    }
 
 .hero .hero-heading
@@ -201,8 +201,7 @@ hr
       /* My Info */
    .my-info-article
       {
-         border-top: 1px solid var(--link-color);
-         background-color: var(--primary-color);
+        
          display:flex;
          -webkit-box-orient: horizontal;
          -webkit-box-direction: normal;
@@ -222,7 +221,7 @@ hr
         position: relative;  
         padding-top: 20rem; 
         height: 10rem;
-        color: var(--off-white);
+        color: var(--link-color);
         word-spacing: 0.20rem;
         overflow: auto;
 
@@ -250,3 +249,11 @@ hr
       {
          font-size: 20px;
       }
+
+    /* footer-icons */
+
+    .github-icon
+    {
+      max-width: 20px;
+      max-height: 20px; 
+    }
