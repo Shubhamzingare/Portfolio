@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog One|Tailwind CSS</title>
+
+    <!-- css -->
+    <style>
+        body{
+            background: linear-gradient(45deg, #C7F5FE 10%, #C7F5FE 40%, #FCC8F8 40%, #FCC8F8 60%, #EAB4F8 60%, #EAB4F8 65%, #F3F798 65%, #F3F798 90%);        }
+        img{
+            max-width: 400px;
+            display: block;
+            margin: auto;
+            padding: 2rem 0;
+        }
+        p{
+            text-align: left;
+            font-size: large;
+        }
+        h1{
+            text-align: center;
+        }
+        .container{
+            padding-left: 2rem;
+            padding-right: 1rem;
+            padding-top: 2rem;
+            overflow: auto;
+        }
+
+        .container-center{
+            max-width: 600px;
+            margin: auto;
+            
+        }
+        ul li{
+            text-align: left;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tailwind CSS Website</h1>
+   <ul type="dot">
+    <div class="container container-center">
+        <li>
+            An API for your design system.
+        </li>    
+        <p>
+            Utility classes help you work within the constraints of a system instead of littering your stylesheets with arbitrary values. They make it easy to be consistent with color choices, spacing, typography, shadows, and everything else that makes up a well-engineered design system.
+        </p>
+    </div>
+    <div class="container container-center">
+        <li>
+            Build whatever you want, seriously.
+        </li>    
+        <p>
+            Because Tailwind is so low-level, it never encourages you to design the same site twice. Even with the same color palette and sizing scale, it's easy to build the same component with a completely different look in the next project.        </p>
+    </div>
+    <div class="container container-center">
+        <li>
+            It’s tiny — never ship unused CSS again.
+        </li>    
+        <p>
+            Tailwind automatically removes all unused CSS when building for production, which means your final CSS bundle is the smallest it could possibly be. In fact, most Tailwind projects ship less than 10kB of CSS to the client.    
+    </div>
+    <div class="container container-center">
+        <li>
+            Responsive everything.
+        </li>    
+        <p>
+            Wrestling with a bunch of complex media queries in your CSS sucks, so Tailwind lets you build responsive designs right in your HTML instead.
+
+            Throw a screen size in front of literally any utility class and watch it magically apply at a specific breakpoint.    </div>
+        </ul>
+</body>
+</html>

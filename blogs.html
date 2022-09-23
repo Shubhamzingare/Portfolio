@@ -1,52 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Blogs | Shubham Zingare</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styleBlogs.css">
+
+     <!-- icons -->
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 <body>
-    <nav class="navigation">
-        <ul class="list-non-bullet nav-pills">
-          <!-- <div class="nav-brand"><span>Shubham Zingare</span></div> -->
-          <li class="list-item-brand-inline">
-            <a class="nav-brand" href="index.html">Shubham Zingare</a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="index.html">Home</a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="projects.html">Projects</a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link link-active" href="blogs.html">Blogs</a>
-          </li>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmDeveloper</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline"><a href="/" class="link">Home</a></li>
+        <li class="list-item-inline"><a href="projects.html" class="link">Projects</a></li>
+        <li class="list-item-inline link-active"><a href="blogs.html" class="link">Blogs</a></li>
+    </ul>
+    </nav>
+
+    <header class="hero">
+        <img src="images/blog.svg" alt="" class="hero-ing">
+        <h1 class="hero-heading">Checkout My <span class="heading-inverted">blogs</span></h1>
+        <!-- #fcd34d -->
+    </header>
+
+    <section class="section">
+        <div class="container container-center">
+
+            <h3 style="font-weight: bold;">Introduction to Tailwind CSS</h3>
+            <small>September, 2022</small>
+            <p>Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables.</p>
+            <a href="Tailwindcss.html" class="link link-primary">Read More</a> <br><br>
+
+            <h3 style="font-weight: bold;">Dummy Blog</h3>
+            <small>September, 2022</small>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione  explicabo accusamus!
+              Itaque sunt eum sed, dolores sequi inventore natus et beatae,</p>
+            <a href="blog2.html" class="link link-primary">Read More</a>
+        </div>
+    </section>
+            
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-header">Connect</div>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline"><a href="https://github.com/Shubhamzingare" class="link"><i class='fa fa-github'></i></a></li>
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/shubham-zingare-515833198" class="link"><i class='fa fa-linkedin'></i></a></li>
+            <li class="list-item-inline"><a href="https://twitter.com/Shubham_zingare" class="link"><i class='fa fa-twitter'></i></a></li>
         </ul>
-      </nav>
-    
-      <header class="hero">
-        <img class="hero-img" src="Images/blog-img.svg"/>
-        <h1 class="hero-heading">MY BLOGS</h1>
-        <h3 class="hero-heading">Happy Reading</h3>
-      </header>
-
-
-
-
-
-
-
-
-      <footer class="footer">
-        <div class="footer-header">|| Connect To Me ||</div>
-        <ul class="social-links list-non-bullet">
-          <li class="list-item-inline"><a class="link" href="https://github.com/Shubhamzingare">GitHub</a></li>
-          <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/shubham-zingare-515833198">Linkedin</a></li>
-          <li class="list-item-inline"><a class="link" href="https://www.instagram.com/shubham_zingare/">Instagram</a></li>
-        </ul>
-      </footer>
-
+    </footer>
 </body>
 </html>

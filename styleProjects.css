@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gotu&family=Nunito&display=swap');
 
 :root{
-    --primary-color: #22c55e;
+    --primary-color: #14fcd1;
     --dark-gray: #4b5563;
-    --off-white: #e2e8f0;
+    --off-white: #e2e8f07b;
 }
 
 body{
     font-family: 'Gotu', sans-serif;
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 hr{
@@ -41,11 +41,12 @@ hr{
 }
 
 .link-secondary{
-    color: #22c55e;
-    border: 1px solid #22c55e;
+    color: #14fcd1;
+    border: 1px solid #14fcd1;
     border-radius: 0.5rem;
 }
 
+/* TIP - look into BEM naming conventions for CSS */
 
 /* lists */
 .list-non-bullet{
@@ -87,7 +88,7 @@ hr{
     padding: 2rem;
 }
 
-.hero .hero-ing{
+.hero .hero-img{
     max-width: 350px;
     display: block;
     margin: auto;
@@ -114,6 +115,22 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+/* Home button */
+.link-back{
+    margin: 0;
+    background-color: var(--off-white);
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.home-button{
+    text-decoration: none;
+    padding: 0.3rem 1.3rem;
+    background-color: var(--dark-gray);
+    border-radius: 0.5rem;
+    color: white;
 }
 
 /* footer */
